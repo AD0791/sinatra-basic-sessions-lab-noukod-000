@@ -5,6 +5,10 @@ class App < Sinatra::Base
     erb :index
   end
 
+  configure do
+    
+  end
+
   post '/checkout' do
     @item = params['item']
     #binding.pry
