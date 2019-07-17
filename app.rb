@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-
+    binding.pry
     erb :checkout
   end
 end
