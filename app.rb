@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   configure do
-    enable: session
+    enable: sessions
   end
 
   post '/checkout' do
